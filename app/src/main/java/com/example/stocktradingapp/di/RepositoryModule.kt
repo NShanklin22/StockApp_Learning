@@ -2,7 +2,9 @@ package com.example.stocktradingapp.di
 
 import com.example.stocktradingapp.data.csv.CSVParser
 import com.example.stocktradingapp.data.csv.CompanyListingsParser
+import com.example.stocktradingapp.data.repository.StockRepositoryImpl
 import com.example.stocktradingapp.domain.model.CompanyListing
+import com.example.stocktradingapp.domain.repository.StockRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
